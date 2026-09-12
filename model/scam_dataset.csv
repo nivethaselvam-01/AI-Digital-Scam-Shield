@@ -1,0 +1,90 @@
+message,label
+"Congratulations! You won a free prize. Click here to claim your reward.",prize_scam
+"You are the lucky winner of a cash prize. Claim now.",prize_scam
+"Congratulations, you have won $500. Send your details to claim.",prize_scam
+"Free gift waiting for you. Claim your prize today.",prize_scam
+"You have won a lottery prize. Pay the processing fee to claim.",prize_scam
+"Congratulations! You are selected for a free cash reward.",prize_scam
+"Claim your exclusive reward before it expires.",prize_scam
+"You won a shopping voucher. Click here to receive it.",prize_scam
+"Your lottery reward is ready. Claim it immediately.",prize_scam
+"Congratulations! You have been selected for a cash prize.",prize_scam
+"Claim your free gift by clicking this link.",prize_scam
+"You are today's lucky winner. Send your details to receive the prize.",prize_scam
+"Your reward is waiting. Claim it before the offer expires.",prize_scam
+"Free cash reward available. Click to claim now.",prize_scam
+"You have won an exclusive prize. Pay the small fee to receive it.",prize_scam
+
+"Urgent! Click this link to verify your account.",phishing
+"Your password has expired. Verify it immediately.",phishing
+"Verify your account now to claim your reward.",phishing
+"Click the link urgently to avoid account closure.",phishing
+"Your account has been suspended. Verify your password now.",phishing
+"Security alert! Verify your identity using the link below.",phishing
+"Your account requires immediate verification. Click here.",phishing
+"Suspicious login detected. Verify your account immediately.",phishing
+"Your account will be closed unless you verify now.",phishing
+"Click here to confirm your account information.",phishing
+"Urgent security notice. Verify your login details.",phishing
+"Your email account needs verification. Click the link.",phishing
+"Confirm your identity immediately using this link.",phishing
+"Your account security has been compromised. Verify now.",phishing
+"Click this link to restore your account access.",phishing
+
+"Share your OTP to receive your reward.",otp_scam
+"Send your OTP to confirm the transaction.",otp_scam
+"Your bank security requires immediate OTP verification.",otp_scam
+"Enter the OTP you received to complete the payment.",otp_scam
+"Send the verification code to confirm your account.",otp_scam
+"Please share the OTP to process your refund.",otp_scam
+"Provide the OTP to receive your cashback.",otp_scam
+"Tell us the OTP sent to your phone to complete verification.",otp_scam
+"Share the code you received to activate your account.",otp_scam
+"Send the OTP immediately to prevent account suspension.",otp_scam
+"Your transaction is pending. Share the OTP to approve it.",otp_scam
+"Provide your verification code to receive the payment.",otp_scam
+"Give us the OTP to confirm your identity.",otp_scam
+"Enter the OTP to complete your banking request.",otp_scam
+"Share the security code to complete the transaction.",otp_scam
+
+"Your bank account will be blocked. Verify your account immediately.",banking_scam
+"Your bank account needs verification. Click the link now.",banking_scam
+"Urgent action required. Verify your banking information.",banking_scam
+"Your bank account has been suspended. Contact us immediately.",banking_scam
+"Your banking details need to be updated urgently.",banking_scam
+"Your account will be blocked unless you verify your banking details.",banking_scam
+"Your bank detected unusual activity. Verify your account now.",banking_scam
+"Immediate bank verification required to avoid account closure.",banking_scam
+"Your debit card has been suspended. Verify your banking information.",banking_scam
+"Confirm your bank account details immediately.",banking_scam
+"Your online banking access will expire. Verify now.",banking_scam
+"Update your bank information using the link provided.",banking_scam
+"Your bank account requires urgent security verification.",banking_scam
+"Unusual transaction detected in your bank account. Verify now.",banking_scam
+"Your banking service has been restricted. Confirm your details.",banking_scam
+
+"Hey, are we meeting today?",safe
+"Please send me the project file.",safe
+"Your class starts at 10 AM tomorrow.",safe
+"Can you call me when you are free?",safe
+"Meeting has been scheduled for tomorrow.",safe
+"Please submit your assignment before Friday.",safe
+"I will send the notes in the evening.",safe
+"Let's meet at the library after class.",safe
+"Your order has been delivered successfully.",safe
+"Thank you for helping me with the project.",safe
+"Can you share the presentation with me?",safe
+"I will call you after lunch.",safe
+"The college event starts at 9 AM.",safe
+"Please remind me about the meeting tomorrow.",safe
+"Have a great day!",safe
+"Your package is ready for pickup.",safe
+"Let's discuss the project requirements.",safe
+"I uploaded the document to the shared folder.",safe
+"See you tomorrow at college.",safe
+"Please check the assignment once.",safe
+"Can you send me the notes?",safe
+"I will meet you after class.",safe
+"The project presentation is tomorrow.",safe
+"Please call me when you reach home.",safe
+"Let's work on the assignment together.",safe

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Digital Scam Shield</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            🛡️ AI Digital Scam Shield
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#scan">Scan</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>AI-Powered Digital Scam Shield</h1>
+
+            <p>
+                Detect suspicious messages, links and online scams
+                using Artificial Intelligence.
+            </p>
+
+            <button>Scan for Scam</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Scan Section -->
+    <section class="scan-section" id="scan">
+
+        <div class="scan-content">
+
+            <h2>Check Before You Trust</h2>
+
+            <p>
+                Paste a suspicious message, link or text below.
+                Our AI will analyze it and identify possible scam risks.
+            </p>
+
+            <textarea
+                placeholder="Paste suspicious message or link here..."></textarea>
+
+            <button>Analyze Now</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- How It Works -->
+    <section class="how-section">
+
+        <div class="how-content">
+
+            <h2>How It Works</h2>
+
+            <p class="how-description">
+                Our AI-powered system analyzes digital content
+                and helps you identify potential scam threats.
+            </p>
+
+            <div class="steps">
+
+                <div class="step-card">
+
+                    <div class="step-number">01</div>
+
+                    <h3>Paste Content</h3>
+
+                    <p>
+                        Enter a suspicious message, link or text
+                        into the scanner.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">02</div>
+
+                    <h3>AI Analysis</h3>
+
+                    <p>
+                        AI analyzes the content and checks for
+                        suspicious patterns.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">03</div>
+
+                    <h3>Get Result</h3>
+
+                    <p>
+                        Receive a clear risk result and safety
+                        recommendation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Result Section -->
+    <section class="result-section">
+
+        <div class="result-content">
+
+            <h2>Scam Detection Result</h2>
+
+            <div class="result-card">
+
+                <div class="result-icon">⚠️</div>
+
+                <h3>Potential Scam Detected</h3>
+
+                <p class="risk-level">
+                    Risk Level: HIGH
+                </p>
+
+                <p class="scam-type">
+                    Scam Type:
+                    <strong>Analyzing...</strong>
+                </p>
+
+                <p class="recommendation">
+                    Recommendation:
+                    <strong>
+                        Stay alert and verify the source.
+                    </strong>
+                </p>
+
+                <p id="riskDescription">
+                    This content contains suspicious patterns that may indicate
+                    a phishing or online scam attempt.
+                </p>
+
+                <!-- Why This Is Suspicious -->
+                <div class="why-suspicious-box">
+
+                    <h4>❓ Why is this suspicious?</h4>
+
+                    <ul id="whySuspiciousList">
+
+                        <li>
+                            No suspicious reasons identified yet.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Risk Details -->
+                <div class="risk-details">
+
+                    <div>
+                        <strong>85%</strong>
+                        <span>Risk Score</span>
+                    </div>
+
+                    <div>
+                        <strong>3</strong>
+                        <span>Red Flags</span>
+                    </div>
+
+                    <div>
+                        <strong>High</strong>
+                        <span>Threat Level</span>
+                    </div>
+
+                    <div>
+                        <strong>--%</strong>
+                        <span>AI Confidence</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Warning Box -->
+                <div class="warning-box" id="warningMessage">
+
+                    ⚠️ Do not click suspicious links or share
+                    personal information.
+
+                </div>
+
+
+                <div class="safety-section">
+
+                    <!-- Safety Actions -->
+                    <div class="safety-actions">
+
+                        <h4>🛡️ What You Should Do</h4>
+
+                        <ul id="safetyList">
+
+                            <li>
+                                Do not click suspicious links.
+                            </li>
+
+                            <li>
+                                Never share OTP or passwords.
+                            </li>
+
+                            <li>
+                                Verify the sender through official channels.
+                            </li>
+
+                            <li>
+                                Report or delete suspicious messages.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- Red Flags -->
+                    <div class="red-flags-box">
+
+                        <h4>🚩 Detected Red Flags</h4>
+
+                        <ul id="redFlagsList">
+
+                            <li>
+                                No suspicious patterns detected yet.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Dashboard Statistics -->
+    <section class="dashboard-section">
+
+        <div class="dashboard-content">
+
+            <h2>Security Dashboard</h2>
+
+            <p class="dashboard-description">
+                Track your scam detection activity and security status.
+            </p>
+
+            <div class="dashboard-stats">
+
+                <div class="dashboard-card">
+                    <div class="dashboard-icon">🔍</div>
+                    <h3 id="totalScans">0</h3>
+                    <p>Total Scans</p>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="dashboard-icon">✅</div>
+                    <h3 id="safeScans">0</h3>
+                    <p>Safe</p>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="dashboard-icon">⚠️</div>
+                    <h3 id="mediumScans">0</h3>
+                    <p>Medium Risk</p>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="dashboard-icon">🚨</div>
+                    <h3 id="highScans">0</h3>
+                    <p>High Risk</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Risk Visualization -->
+    <section class="risk-visual-section">
+
+        <div class="risk-visual-content">
+
+            <h2>Risk Distribution</h2>
+
+            <p class="risk-visual-description">
+                Visual overview of your recent scam detection results.
+            </p>
+
+            <div class="risk-bars">
+
+                <!-- Safe -->
+                <div class="risk-bar-item">
+
+                    <div class="risk-bar-header">
+                        <span>✅ Safe</span>
+                        <strong id="safePercentage">0%</strong>
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <div
+                            class="risk-bar-fill safe-bar"
+                            id="safeBar">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Medium -->
+                <div class="risk-bar-item">
+
+                    <div class="risk-bar-header">
+                        <span>⚠️ Medium Risk</span>
+                        <strong id="mediumPercentage">0%</strong>
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <div
+                            class="risk-bar-fill medium-bar"
+                            id="mediumBar">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- High -->
+                <div class="risk-bar-item">
+
+                    <div class="risk-bar-header">
+                        <span>🚨 High Risk</span>
+                        <strong id="highPercentage">0%</strong>
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <div
+                            class="risk-bar-fill high-bar"
+                            id="highBar">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Scan History -->
+    <section class="history-section">
+
+        <div class="history-content">
+
+            <h2>Recent Scan History</h2>
+
+            <button id="clearHistoryBtn" class="clear-history-btn">
+                🗑️ Clear All History
+            </button>
+
+            <p class="history-description">
+                View your recently analyzed messages and their risk levels.
+            </p>
+
+            <div id="historyList" class="history-list">
+
+                <div class="empty-history">
+
+                    <span>🔍</span>
+
+                    <p>
+                        No scans yet. Analyze a message to see your history.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features Section -->
+    <section class="features-section">
+
+        <div class="features-content">
+
+            <h2>Powerful Security Features</h2>
+
+            <p class="features-description">
+                AI Digital Scam Shield helps protect you from
+                different types of digital threats.
+            </p>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🔗</div>
+
+                    <h3>Link Detection</h3>
+
+                    <p>
+                        Identify suspicious and potentially dangerous
+                        links before you click them.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">💬</div>
+
+                    <h3>Message Analysis</h3>
+
+                    <p>
+                        Analyze SMS, emails and messages for
+                        scam-related patterns.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🤖</div>
+
+                    <h3>AI Risk Analysis</h3>
+
+                    <p>
+                        AI evaluates suspicious content and generates
+                        a risk score.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🛡️</div>
+
+                    <h3>Safety Recommendations</h3>
+
+                    <p>
+                        Get clear recommendations to stay safe
+                        from digital scams.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <h2>Stay One Step Ahead of Scammers</h2>
+
+                <p>
+                    AI Digital Scam Shield is designed to help users
+                    identify suspicious digital content before it causes harm.
+                </p>
+
+                <p>
+                    By combining AI-based analysis with security awareness,
+                    the system provides simple and understandable scam warnings.
+                </p>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <h3>95%</h3>
+
+                    <p>
+                        Detection Accuracy
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>24/7</h3>
+
+                    <p>
+                        Protection
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>4+</h3>
+
+                    <p>
+                        Threat Types
+                    </p>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <h3>AI</h3>
+
+                    <p>
+                        Powered Analysis
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h3>
+                    🛡️ AI Digital Scam Shield
+                </h3>
+
+                <p>
+                    Smart protection against digital scams
+                    powered by Artificial Intelligence.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="#scan">Scan</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h4>Security</h4>
+
+                <p>Stay Alert</p>
+                <p>Think Before You Click</p>
+                <p>Protect Your Data</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 AI Digital Scam Shield. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
