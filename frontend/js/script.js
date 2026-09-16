@@ -1,3 +1,7 @@
+// Guest scan limit
+let guestScanCount = Number(localStorage.getItem("guestScanCount")) || 0;
+const guestScanLimit = 2;
+const token = localStorage.getItem("token");
 const scanButton = document.querySelector(".scan-content button");
 const scanInput = document.querySelector(".scan-content textarea");
 const resultSection = document.querySelector(".result-section");
@@ -97,6 +101,12 @@ const whySuspiciousList =
 // ==========================================
 
 scanButton.addEventListener("click", async function () {
+        // Guest scan limit
+    if (!token && guestScanCount >= guestScanLimit) {
+        alert("You have used your 2 free scans. Please login to continue.");
+        window.location.href = "login.html";
+        return;
+    }
 
     const originalText =
         scanInput.value.trim();
@@ -250,18 +260,30 @@ scanButton.addEventListener("click", async function () {
         );
 
 
-        const data =
-            await response.json();
+       
+    const data =
+    await response.json();
 
+    
+if (!response.ok) {
 
-        if (!response.ok) {
+    throw new Error(
+        data.error || "Scan failed"
+    );
 
-            throw new Error(
-                data.error || "Scan failed"
-            );
+}
 
-        }
+// Count successful guest scan
+if (!token) {
 
+    guestScanCount = guestScanCount + 1;
+
+    localStorage.setItem(
+        "guestScanCount",
+        guestScanCount.toString()
+    );
+
+}   
 
         // ==========================================
         // RISK DATA
@@ -1758,3 +1780,12 @@ window.addEventListener(
 
     }
 );
+const logoutBtn = document.getElementById("logoutBtn");
+
+if (logoutBtn) {
+    logoutBtn.addEventListener("click", function () {
+        localStorage.removeItem("token");
+        localStorage.removeItem("userEmail");
+        window.location.href = "index.html";
+    });
+}
