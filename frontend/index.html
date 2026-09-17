@@ -24,10 +24,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="login.html">Login</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li id="logoutItem" style="display: none;">
-                <a href="#" id="logoutBtn">Logout</a>
-            </li>
+            
         </ul>
 
     </nav>
@@ -638,25 +635,7 @@
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
-    <script>
-
-    const logoutItem = document.getElementById("logoutItem");
-    const logoutBtn = document.getElementById("logoutBtn");
-
-    if (sessionStorage.getItem("loggedIn") === "true") {
-        logoutItem.style.display = "block";
-    }
-
-    logoutBtn.addEventListener("click", function (event) {
-        event.preventDefault();
-
-        sessionStorage.removeItem("loggedIn");
-
-        window.location.href = "login.html";
-    });
-
-</script>
-
+    
 </body>
 
 </html>
