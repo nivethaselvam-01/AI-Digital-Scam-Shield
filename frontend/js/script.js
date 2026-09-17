@@ -245,7 +245,7 @@ scanButton.addEventListener("click", async function () {
     try {
 
         const response = await fetch(
-            "http://localhost:5000/api/scan",
+            "/api/scan",
             {
                 method: "POST",
 
